@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área</title>
+    <link rel="stylesheet" href="style-area.css">
+    <script src="scriptResultados-area.js"></script>
+   
+
+</head>
+<header id="cabecalho">
+    <a href="index-area.html"> Principal</a>
+    <a href="videoaula-area.html"> Video aula</a>
+    <a href="exercicios-area.html"> Exercicios</a>
+</header>
+
+<body>
+
+    <main id="conteudo">
+        <div id="resumo">
+            A área de um sólido geométrico pode ser obtida<br>
+            pela soma das áreas de cada uma das<br>
+            figuras geométricas que o compõem<br>
+        </div>
+        <div id="espaco"></div>
+        <div id="resumo">
+         <b>Área do paralelepípedo:</b> ela deve ser calculada<br>
+            de modo que o comprimento a largura e a altura<br>
+            onde sua formúla vem a ser:"A = 2xy + 2yz + 2xz<br>
+            altura(z),cumprimento(x),largura(y)
+        </div>
+        <form>
+            <div>
+                <label for="alt1">Altura</label>
+                <input type="text" id="alt1">
+            </div>
+
+            <div>
+                <label for="comp1">Comprimento</label>
+                <input type="text" id="comp1">
+            </div>
+            <div>
+                <label for="larg1">largura</label>
+                <input type="text" id="larg1">
+            </div>
+            <div>
+               
+            </div>
+        </form>
+        <button id="calcular" onclick="f1()">
+            Calcular
+        </button>
+  
+         <div id="resul1">
+    
+        </div>
+        <div id="espaco1"></div>
+        <div id="resumo">
+            <b>Área do cilindro:</b> ela deve ser calculada<br>
+               Dado o cilindro de raio r e altura h onde sua<br>
+               formúla vem a ser:"A = 2πr(r + h), onde:raio(r)<br>
+               altura(h) e o pi(π)
+        </div>
+        <form>
+            <div>
+                <label for="alt2">Altura</label>
+                <input type="text" id="alt2">
+            </div>
+
+            <div>
+                <label for="raio2">raio</label>
+                <input type="text" id="raio2">
+            </div>
+            <div>
+                <label for="pi2">Pi(π)</label>
+                <input type="text" id="pi2">
+            </div>
+            <div>
+               
+            </div>
+        </form>
+        <button id="calcular" onclick="f2()">
+            Calcular
+        </button>
+  
+         <div id="resul2">
+    
+        </div>
+        <div id="espaco1"></div>
+        <div id="resumo">
+            <b>Área do retângulo:</b> ela deve ser calculada<br>
+               Dado um retângulo para calcular sua área usa a<br>
+               formúla que vem a ser:"A = B . H, onde base(b)<br>
+               e a altura(h)
+        </div>
+        <form>
+            <div>
+                <label for="alt3">Altura</label>
+                <input type="text" id="alt3">
+            </div>
+
+            <div>
+                <label for="bs3">Base</label>
+                <input type="text" id="bs3">
+            </div>
+            <div>
+               
+            </div>
+        </form>
+        <button id="calcular" onclick="f3()">
+            Calcular
+        </button>
+  
+         <div id="resul3">
+    
+        </div>
+        <div id="espaco1"></div>
+        <div id="resumo">
+            <b>Área do triângulo:</b> ela deve ser calculada<br>
+               Dado um triângulo para calcular sua área usa a<br>
+               formúla que vem a ser:"A = b.h/2, onde base(b)<br>
+               e a altura(h)
+        </div>
+        <form>
+            <div>
+                <label for="alt4">Altura</label>
+                <input type="text" id="alt4">
+            </div>
+
+            <div>
+                <label for="bs4">Base</label>
+                <input type="text" id="bs4">
+            </div>
+            <div>
+               
+            </div>
+        </form>
+        <button id="calcular" onclick="f4()">
+            Calcular
+        </button>
+  
+         <div id="resul4">
+    
+        </div>
+        <div id="espaco1"></div>
+        <div id="resumo">
+            <b>Área do círculo:</b> ela deve ser calculada<br>
+               Dado um círculo para calcular sua área usa a<br>
+               formúla que vem a ser:"A = π . r²  onde pi(π)<br>
+               e o raio(r)
+        </div>
+        <form>
+            <div>
+                <label for="pi5">Pi(π)</label>
+                <input type="text" id="pi5">
+            </div>
+
+            <div>
+                <label for="raio5">Raio</label>
+                <input type="text" id="raio5">
+            </div>
+            <div>
+               
+            </div>
+        </form>
+        <button id="calcular" onclick="f5()">
+            Calcular
+        </button>
+  
+         <div id="resul5">
+    
+        </div>
+
+        <div id="links">
+            <a href="https://mundoeducacao.uol.com.br/matematica/geometria-1.htm">Geometria</a>
+            <a href="https://www.todamateria.com.br/conversao-de-unidades/">Conversões de unidades</a>
+            <a href="https://www.todamateria.com.br/area-e-perimetro/">Material de apoio </a>
+        </div>
+    </main>
+  
+</body>
+<footer>
+    Criado pelos usuários de linux
+</footer>
+
+</html>

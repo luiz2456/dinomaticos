@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média, Moda e Mediana</title>
+    <link rel="stylesheet" href="mmm.css">
+   
+  
+</head>
+
+<header id="cabecalho">
+    <a href="index-mmm.html"> conteúdo</a>
+    <a href="exerciciommm.html"> exercicios</a>
+   
+</header>
+<body>
+   
+    <main id="conteudo">
+    <div id="resumo">
+        <h1> Moda</h1>
+
+
+        <p class="paragrafo">Em um conjunto de dados, a moda é aquele resultado mais recorrente no conjunto, ou seja,<br>
+        com maior frequência absoluta.<br>
+        Exemplo:<br>
+        Em uma loja de calçados femininos, o estoque é reposto mensalmente. Para entender melhor<br>
+        o consumo de seus clientes, o dono da loja decidiu anotar o tamanho escolhido pelos 35<br>
+        primeiros clientes em uma lista:<br></p>
+                                                                     
+
+        <p class="paragrafo"> N = {35, 37, 36, 34, 38, 35, 37, 37, 33, 36, 38, 37,35, 37, 34, 33, 37, 36,<br>
+               35, 38, 36,35, 36, 37, 38, 39, 37, 37, 36, 37, 33, 37, 35, 37, 39}<br></p>
+        
+        
+            <p class="paragrafo">Analisando os dados coletados, para realizar o próximo pedido, o tamanho de calçado mais<br>
+        recorrente entre as clientes é a moda desse conjunto.<br>
+
+        <p class="paragrafo">N = {35, 37, 36, 34, 38, 35, 37, 37, 33, 36, 38, 37,35, 37, 34, 33, 37, 36,<br>
+             35, 38, 36, 35, 36, 37, 38, 39, 37, 37, 36, 37, 33, 37, 35, 37, 39}<br></p>
+
+        <p class="paragrafo"> A partir da moda, é possível perceber que 37 é o tamanho mais recorrente entre as clientes<br>
+        dessa loja, dado esse que ajudaria a loja na escolha dos tamanhos na hora de repor o estoque.<br>  
+        Representamos a moda por Mo. Nesse caso, temos que Mo = 37.<br>
+        Para encontrar a moda, basta escolher o valor com maior frequência absoluta.<br></p>
+        
+        
+        <h1>Mediana</h1>
+        
+        
+    <p class="paragrafo">Dado um conjunto numérico, conhecemos como mediana o valor que ocupa a posição central dos<br>
+        valores quando organizamos esses dados em ordem. Para encontrar a mediana, é possível listar<br>
+        os termos em ordem crescente ou decrescente e encontrar o termo que ocupa a posição central.<br></p>
+        
+        
+        <h3> 1º caso — quantidade ímpar de elementos<br> </h3>
+        
+        
+    <p class="paragrafo"> Exemplo:<br>
+        A altura dos professores da área de ciências da natureza de uma escola foi listada a seguir:<br>
+        <p class="paragrafo"> A = { 1,79 m; 1,72 m; 1,63 m; 1,82 m; 1,65 m; 1,75 m; 1,80 m}<br> </p>
+        <p class="paragrafo"> Para encontrar a mediana, é essencial que o primeiro passo seja colocar os dados em ordem crescente<br>
+         ou decrescente.<br></p>
+         <p class="paragrafo"> A = {1,63; 1,65; 1,72; 1,75; 1,79; 1,80; 1,82}<br></p>
+         <p class="paragrafo"> Note que há sete elementos no conjunto. Como há uma quantidade ímpar de elementos, a mediana será o <br>
+        termo que está exatamente na metade da lista.<br></p>
+        
+        
+       <h3>2º caso — quantidade par de elementos<br> </h3>
+        
+        
+    <p class="paragrafo">Quando a quantidade de elementos do conjunto é par, é necessário calcular a média entre os dois termos <br>
+        <p class="paragrafo"> que se encontram no meio do conjunto em ordem.<br>
+        Exemplo:<br> </p>
+        <p class="paragrafo"> B = { 1, 2, 2, 3, 6, 10, 15, 16,16, 20}<br> </p>
+        <p class="paragrafo">Ao realizar a contagem da quantidade de termos, há 10 termos. Então, temos que 10 : 2 = 5, logo os termos<br>
+        centrais são o 5º e o 6º termo.<br> </p>
+        <p class="paragrafo"> O 5º termo da sequência é 6.<br>
+        O 6º termo da sequência é 10.<br> </p>
+        
+        
+    <p class="paragrafo"> A mediana é a soma desses números dividida por 2, ou seja, (10 + 6): 2 = 16 : 2 =  8. Logo, a mediana desse <br>
+        conjunto é 8.<br></p>
+        
+        
+        <h1>Média</h1>
+        
+        <p class="paragrafo">
+        Entre as medidas centrais, a mais utilizada é a média. Existem vários tipos de média, mas as mais comuns são <br>
+        a média aritmética simples e a média aritmética ponderada.<br> </p>
+        
+        
+        <h3>Média aritmética simples</h3>
+        
+        
+    <p class="paragrafo">A média aritmética é calculada pela soma de todos os elementos do conjunto dividida pela quantidade de elementos <br>
+        do conjunto.<br>
+           <img class="imagem1" src="./mediasimples.jpeg"> </p>
+        
+        
+           <p class="paragrafo"> N: quantidade de elementos<br> </p>
+        
+        
+    <p class="paragrafo"> Exemplo:<br>
+        A idade dos funcionários do departamento de recursos humanos de uma empresa está na lista a seguir:<br> </p>
+
+          <p class="paragrafo"> {28, 30, 29, 31, 32, 33, 34}<br> </p>
+          <p class="paragrafo"> Calcule a idade média dos funcionários desse departamento.<br>
+        Resolução:<br>
+        <p class="paragrafo"> Sabemos que há 7 elementos, então temos que:<br> </p>
+                 <img class="imagem2" src="./exemplomediasimples.jpeg">
+       <h3>Média aritmética ponderada</h3> </p>
+        
+        
+    <p class="paragrafo">Na média aritmética ponderada, são atribuídos pesos para cada um dos valores. Quanto maior for o peso,<br>
+        maior será a influência daquele determinado dado no valor da média aritmética ponderada.<br>
+        Para calcular a média aritmética ponderada, utilizamos a fórmula:<br></p>
+        
+            <img class="imagem3" src="./mediapoderada.jpeg">
+
+
+
+    </div>
+
+</main>
+
+<h1>VIDEOAULA</h1>
+link na imagem:
+<div>
+    <a href="https://www.youtube.com/watch?v=X5BUC6Lc8gw" id="videoaula">
+        <img src="./videoaulammm.png">
+        
+</div>
+
+
+
+</body>
+</html>

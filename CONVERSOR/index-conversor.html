@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medidas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<header id="cabecalho">
+    <a href="index-conversor.html"> Principal</a>
+    <a href="videoaula.html"> Video aula</a>
+    <a href="exercicios.html"> Exercicios</a>
+</header>
+
+<body>
+
+    <main id="conteudo">
+        <div id="resumo">
+            A conversão de medidas de comprimento é a mais comum no cotidiano.<br>
+            O metro (m) é a base dessas medidas, pois para representar grandes <br>
+            distâncias utilizamos os múltiplos do metro e para pequenos <br>
+            comprimentos têm-se os submúltiplos do metro.
+        </div>
+        <br>
+        <div id="resumo">
+            As unidades de medidas de comprimento na ordem são:<br><br>
+            Múltiplos: Quilômetro - km; Hectômetro - hm; Decâmetro - dam<br>
+            Base: Metro - m<br>
+            Submúltiplos: Decímetro - dm; Centímetro - cm; Milímetro - mm
+        </div>
+        <form>
+            <div>
+                <label for="numero">Número</label>
+                <input type="text" id="numero">
+            </div>
+            <br>
+            <div>
+                <label for="medatu">Qual a unidade de medida atual?</label>
+                <select id="medatu">
+                    <option value=""></option>
+                    <option value="km">Quilômetro(km)</option>
+                    <option value="hm">Hectômetro(hm)</option>
+                    <option value="dam">Decâmetro(dam)</option>
+                    <option value="m">Metro(m)</option>
+                    <option value="dm">Decímetro(dm)</option>
+                    <option value="cm">Centímetro(cm)</option>
+                    <option value="mm">Milímetro(mm)</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="conversor">Selecione para qual unidade de medida você quer converter?</label>
+                <select id="conversor">
+                    <option value=""></option>
+                    <option value="cvt_km">Quilômetro(km)</option>
+                    <option value="cvt_hm">Hectômetro(hm)</option>
+                    <option value="cvt_dam">Decâmetro(dam)</option>
+                    <option value="cvt_m">Metro(m)</option>
+                    <option value="cvt_dm">Decímetro(dm)</option>
+                    <option value="cvt_cm">Centímetro(cm)</option>
+                    <option value="cvt_mm">Milímetro(mm)</option>
+                </select>
+            </div>
+            <div>
+                <button id="calcular">
+                    Calcular
+                </button>
+            </div>
+        </form>
+
+        <div id="resposta">
+            
+        </div>
+
+
+        <div id="links">
+            <a href="https://brasilescola.uol.com.br/matematica/medidas-de-comprimento.htm">Material de Apoio</a>
+            <a href="https://www.todamateria.com.br/conversao-de-unidades/">Demais Conversões de Medidas</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    Criado pelos usuários de linux
+</footer>
+
+</html>
